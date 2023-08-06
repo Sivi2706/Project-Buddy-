@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  /* section 1 */
+  .section1 {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  /* Section 1 horizonal scroll */
+  .major-container {
+      display: block;
+      height: 45vh;
+      width: 60vw;
+      border: 3px solid black;
+  }
+  
+  .scroll-container {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      overflow: scroll;
+  }
+  
+  .scroll > * {
+      display: inline-block;
+      width: 60vw;
+  
+  }
+  
+  .scroll {
+      height: 100%;
+      width: 100%;
+  
+      background-image: url(https://endlessicons.com/wp-content/uploads/2012/11/image-holder-icon.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  
+      display: flex;
+      flex-direction: row;
+      align-items: end;
+  }
