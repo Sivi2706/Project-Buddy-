@@ -22,203 +22,221 @@
     box-sizing: border-box;
 }
 
+/* Navigation styling  */
+    .hero-title{
+        height:50px;
+        width:100%;
+        gap: 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items:center;
+        background-color:black;
+    }
 
-.hero-title{
-    height:50px;
-    width:100%;
-    gap: 2px;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items:center;
-    background-color:black;
-}
+    .hero-title * {
+        gap: 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items:center;
+    }
 
-.hero-title * {
-    gap: 2px;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items:center;
-}
+    .hero-title img{
+        height:30px ;
+        /* width:100%; */
+    }
 
-.hero-title img{
-    height:30px ;
-    /* width:100%; */
-}
+    .menu{
+        height:30px;
+        width:60px;
+        border-radius: 5%;
+        border:0;
+        color:white;
+        background-color:transparent;
+        /* display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items:center; */
+    }
 
-.menu{
-    height:30px;
-    width:60px;
-    border-radius: 5%;
-    border:0;
-    color:white;
-    background-color:transparent;
-    /* display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items:center; */
-}
+    .menu-button > :hover{
+        background-color:grey;
+    }
 
-.menu-button > :hover{
-    background-color:grey;
-}
+    .All-button{
+        padding:0;
+        width:10%;
+        height:100%
+        
 
-.All-button{
-    padding:0;
-    width:10%;
-    height:100%
+
+        /* background-color: transparent;
+        border-top: 0;
+        border-bottom:0;
+        border-left:0;
+        padding:10%; */
+    }
+
+    .All-button > :hover{
+        background-color: grey;
+    }
+
+
+    /* .s-bar{
+        padding:10px;
+        background-color: white;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+        width:100%;
+        margin-right:-10px;
+        border-radius:5px;
+        border-color:1px solid black;
+        background-color:transparent;
+        padding:-5x;
+    } */
+
+
+    .s-bar {
+        /* padding: 10px; */
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%; /* Set the width of the .s-bar container to 100% */
+        height:35px;
+        border-radius: 5px;
+        border: 1px solid black;
+        /* Remove negative padding, as it can interfere with sizing */
+    }
+    
+    .search-box {
+        flex: 1; /* Allow the input to take the remaining space in .s-bar */
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    
+    .search-box input {
+        width: 100%; /* Set input width to 100% of the .search-box container */
+        border: none; /* Optional: Remove border for a cleaner look */
+        background: transparent; /* Optional: Set the input background to transparent */
+        outline-width: 0;
+    }
+    
+    .divider {
+        height:100%;
+        font-size: 100%;
+        border: 0px;
+        background-color: transparent;
+        color: white;
+    }
+    
+    .IMDb-Pro{
+        padding:4px;
+        display: flex;
+        flex-direction: flex-start;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .IMDb-Pro > :hover {
+        background-color: grey;
+        /* opacity: -50%; */
+    }
+
     
 
-
-    /* background-color: transparent;
-    border-top: 0;
-    border-bottom:0;
-    border-left:0;
-    padding:10%; */
-}
-
-.All-button > :hover{
-    background-color: grey;
-}
-
-
-/* .s-bar{
-    padding:10px;
-    background-color: white;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-
+    .search-box {
     width:100%;
-    margin-right:-10px;
-    border-radius:5px;
-    border-color:1px solid black;
-    background-color:transparent;
-    padding:-5x;
-} */
-
-
-.s-bar {
-    /* padding: 10px; */
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%; /* Set the width of the .s-bar container to 100% */
-    height:35px;
-    border-radius: 5px;
-    border: 1px solid black;
-    /* Remove negative padding, as it can interfere with sizing */
-  }
-  
-  .search-box {
-    flex: 1; /* Allow the input to take the remaining space in .s-bar */
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     box-sizing: border-box;
-  }
-  
-  .search-box input {
-    width: 100%; /* Set input width to 100% of the .search-box container */
-    border: none; /* Optional: Remove border for a cleaner look */
-    background: transparent; /* Optional: Set the input background to transparent */
-    outline-width: 0;
-  }
-  
-  .divider {
-    height:100%;
-    font-size: 100%;
-    border: 0px;
-    background-color: transparent;
+    }
+
+    .divider{
+        border:0px;
+        background-color: transparent;
+        color: white;
+        
+    }
+
+    .divider > :hover{
+        background-color: grey 
+        
+    }
+    .watchlist{
+    background-color:transparent;
     color: white;
-  }
-  
-  .IMDb-Pro{
-    padding:4px;
-    display: flex;
-    flex-direction: flex-start;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .IMDb-Pro > :hover {
-    background-color: grey;
-    /* opacity: -50%; */
-  }
-
-  
-
-.search-box {
- width:100%;
- box-sizing: border-box;
- display: flex;
- flex-direction: row;
- justify-content: flex-start;
- align-items: center;
- box-sizing: border-box;
-}
-
-.divider{
-    border:0px;
-    background-color: transparent;
-    color: white;
-    
-}
-
-.divider > :hover{
-    background-color: grey 
-    
-}
-.watchlist{
-background-color:transparent;
-color: white;
-box-shadow: none;
-border: 0;
-height:80%;
-}
-
-.watchlist i{
-    margin-right: -2px;
-    padding-top: 1px;
-}
-.watchlist button{
-    height:80%;
-}
-/* .watchlist div{
-    height:80%;
-} */
-.watchlist > :hover{
-    background-color: grey;
-}
-
-.Sign-in{
-    gap:10px;
-    width:15%;
-    padding:10px;
-}
-
-.Sign-in button{
-    width:100%;
-    height:100%;
-    margin:0px;
-    background-color: transparent;
+    box-shadow: none;
     border: 0;
-    color: white;
-}
+    height:80%;
+    }
 
-.Sign-in> :hover{
-    background-color: grey;
-}
+    .watchlist i{
+        margin-right: -2px;
+        padding-top: 1px;
+    }
+    .watchlist button{
+        height:80%;
+    }
+    /* .watchlist div{
+        height:80%;
+    } */
+    .watchlist > :hover{
+        background-color: grey;
+    }
 
-.languge-button button{
-    background-color: transparent;
-    color: white;
-    border: 0;
-}
+    .Sign-in{
+        gap:10px;
+        width:15%;
+        padding:10px;
+    }
 
+    .Sign-in button{
+        width:100%;
+        height:100%;
+        margin:0px;
+        background-color: transparent;
+        border: 0;
+        color: white;
+    }
+
+    .Sign-in> :hover{
+        background-color: grey;
+    }
+
+    .languge-button button{
+        background-color: transparent;
+        color: white;
+        border: 0;
+    }
+
+/* Main body styling  */
+    .body{
+        background: black;
+        width:100%;
+        height:100%;
+        border:1;
+        color:white
+    }
+
+    .body * {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-self: center;
+
+    }
+
+    
