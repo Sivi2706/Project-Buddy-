@@ -256,7 +256,11 @@
         align-items: start;
     }
 
-    #Opacity-trailer{
+#Opacity-trailer{
+    
+}
+
+    /* #Opacity-trailer{
         position: relative;
 
   &::after {
@@ -269,7 +273,7 @@
     background-image: linear-gradient(to bottom right, blue, red);
     opacity: 0.75;
   }
-    }
+    } */
 
     #trailer{
         width: 100%;
