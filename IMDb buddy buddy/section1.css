@@ -46,14 +46,31 @@ html {
 
       scroll-snap-align: start;
   
-      background-image: url(https://endlessicons.com/wp-content/uploads/2012/11/image-holder-icon.png);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-  
       display: flex;
       flex-direction: row;
       align-items: end;
+  }
 
-      transform: translatex(-100%);
+  .poster img {
+    object-fit: cover;
+    height: 200px;
+    width: 110px ;
+  }
+
+  .ds-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: linear-gradient(0deg, rgba(0,0,0,1)15%, rgba(0,0,0,0) 100%);
+  }
+
+  .ds-container > h1{
+    color: white;
+  }
+
+  .img1 {
+    background-image: url(https://mlpnk72yciwc.i.optimole.com/cqhiHLc.IIZS~2ef73/w:auto/h:auto/q:75/https://bleedingcool.com/wp-content/uploads/2023/08/Marvel-Studios-I-Am-Groot-Season-2-_-Official-Trailer-_-Disney-0-28-screenshot.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
