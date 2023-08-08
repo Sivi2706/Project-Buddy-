@@ -31,17 +31,20 @@ html {
       display: flex;
       flex-direction: row;
       overflow: scroll;
+
+      scroll-snap-type: x mandatory;
   }
   
   .scroll > * {
       display: inline-block;
       width: 60vw;
-  
   }
   
   .scroll {
       height: 100%;
       width: 100%;
+
+      scroll-snap-align: start;
   
       background-image: url(https://endlessicons.com/wp-content/uploads/2012/11/image-holder-icon.png);
       background-position: center;
@@ -51,4 +54,6 @@ html {
       display: flex;
       flex-direction: row;
       align-items: end;
+
+      transform: translatex(-100%);
   }
