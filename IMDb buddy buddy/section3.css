@@ -7,7 +7,7 @@
 
 .bg-image-topwatch {
     height: 300px;
-    width: 200px;
+    width: 50px;
 
     background-image: url(https://m.media-amazon.com/images/M/MV5BYTc5OWNhYjktMThlOS00ODUxLTgwNDQtZjdjYjkyM2IwZTZlXkEyXkFqcGdeQXVyNTA3MTU2MjE@._V1_.jpg);
     background-position: center;
@@ -15,6 +15,8 @@
     background-repeat: no-repeat;
 
     display: flex;
+
+    -webkit-transition: 0.5s;
 }
 
 .add-to {
@@ -59,8 +61,25 @@
     overflow: hidden;
 }
 
-.add-to:hover {
+.watchlist-container {
+    height: 55px;
+}
+
+.add-to:hover,
+.add-to:hover::after {
     border-left:1px solid white ;
     border-top: 1px solid white;
     border-right: 1px solid white;
+    transition: 0.1s;
+}
+
+.watchlist-container:hover {
+    scale: 1.1;
+    transition: 0.1s;
+}
+
+.bg-image-topwatch:hover {
+    transition: 0.2s;
+    width: 200px;
+    
 }
