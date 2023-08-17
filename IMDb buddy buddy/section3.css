@@ -1,35 +1,33 @@
 #section3 {
+
+    background-color: #121212;
     display: flex;
     flex-direction: column;
-    align-items: first baseline;
+    align-items: start;
     justify-content: center;
 }
 
 .popular-movie-scroll {
     width: 100%;
+    height: auto;
     display: flex;
     flex-direction: row;
-    justify-content: center; 
+    justify-content: start; 
+    align-items: center;
+    column-gap:10px ;
     overflow: scroll;
 }
 
-.popular-movie-scroll > * {
-    margin-left: 10px;
-}
-
 .bg-image-topwatch {
-    height: 300px;
+    height: 224.93px;
     display: flex;
     flex-direction: row;
-}
-
-.top-movie-container {
-    width: 85px;
 }
 
 .top-movie-container{
     background-color: #1a1a1a;
-    -webkit-transition: 0.5s;
+    width: 300px;
+    height: 425.43px;
 }
 
 .bg-image-topwatch1 {
@@ -37,7 +35,6 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    display: block
 }
 
 .bg-image-topwatch2 {
@@ -102,178 +99,6 @@
     background-repeat: no-repeat;
 }
 
-
-.add-to {
-    position: relative;
-    width: 30px;
-    height: 55px;
-
-    background-color: rgba(0, 0, 0, 0.4);
-
-    border-left:1px solid gray ;
-    border-top: 1px solid gray;
-    border-right: 1px solid gray;
-    border-bottom: none;
-    color: white;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    padding-bottom: 15px;
-
-}
-
-.add-to::after{
-    position: absolute;
-    content: "";
-    width: 23px;
-    height: 23px;
-    
-    border-left: 1px solid gray;
-    border-top: 1px solid gray;
-
-    backdrop-filter: brightness(170%);
-
-    transform: rotate(45deg);
-
-    margin-top: 73px;
-}
-
-
-.add-to {
-    overflow: hidden;
-}
-
-.watchlist-container {
-    height: 55px;
-}
-
-.add-to:hover,
-.add-to:hover::after {
-    border-left:1px solid white ;
-    border-top: 1px solid white;
-    border-right: 1px solid white;
-    transition: 0.1s;
-}
-
-.watchlist-container:hover {
-    scale: 1.1;
-    transition: 0.2s;
-}
-
-
-.top-movie-container:hover{
-    transition: 0.3s;
-    width: 200px;
-    
-}
-
-.desc-container {
-
-    background-color: transparent;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.rating-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.rating-container > svg {
-    display: inline;
-    color: white;
-}
-
-.rating-container > p {
-    display: inline;
-    color: lightgray;
-    padding-right: 10px;
-    margin-left: 10px;
-}
-
-.rate-it {
-    display: none;
-}
-
-.rate-it:hover{
-    background-color: rgba(255, 255, 255, .2);
-    border-radius: 10px;
-}
-
-.top-movie-container:hover > .desc-container {
-    display: flex;
-    flex-direction: row;
-}
-
-.desc-container-name > p {
-    margin-top: 5px;
-    padding-bottom: 15px;
-    color: white;
-}
-
-.transport-watchlist {
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
-    color: rgba(70, 178, 255, 1);
-}
-
-.transport-watchlist-container {
-    display: none;
-}
-
-.information > a{
-    display: none;
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
-    padding: 3px;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.information {
-    display: none;
-}
-
-.top-movie-container:hover > .information{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 5px;
-    transition-delay: 5s;
-}
-.top-movie-container:hover > .transport-watchlist-container {
-    
-    background-color: rgba(255, 255, 255, 0.05);
-
-    display: flex;
-    flex-direction: column;
-    padding: 5px 0 5px 0;
-    margin: 5px;
-    border-radius: 5px;
-    align-items: center;
-    justify-content: center;
-}
-
-.top-movie-container:hover .rate-it {
-    display: block;
-    padding: 5px;
-}
-
-.information > a:hover {
-    background-color: rgba(255, 255, 255, .2);
-    border-radius: 5px;
+.bg-image-topwatch:hover{
+    filter: brightness(90%);
 }
