@@ -1,4 +1,32 @@
-.wrap {
+.carousel-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: white;
+  height: 45vh;
+  width: 60vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .wrap {
     overflow: hidden;
   }
   
@@ -82,4 +110,4 @@
     padding: 0.6em 0;
     text-align: center;
   }
-  
+   */
