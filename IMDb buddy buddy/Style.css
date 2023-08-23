@@ -218,7 +218,11 @@ height:80%;
 display: flex;
 flex-direction: row;
 column-gap: 5px ;
-}
+/* width:1280px ;
+height: 564px; */
+margin-left: 83.450px;
+margin-right: 83.450px;
+} 
 
 .carousel-container{
     display:flex;
@@ -227,12 +231,69 @@ column-gap: 5px ;
     background-color: white;
     height: 45vh;
     width: 60vw;
-    margin-right:0px;
-    margin-left: 83.450px;
+    /* margin-right:0px;
+    margin-left: 83.450px; */
   }
+
+.Section1-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:484px;
+    
+}
+
   
 .Section1-h1{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #f5c518;
 }
   
+.Verticle-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.Verticle-box::before{
+    background-image: linear-gradient(white, black);
+}
+
+.Video{
+    display: flex;
+    flex-direction: row;
+}
+.Verticle-box-image{
+    overflow: hidden;
+    height:130px;
+    width:88px;
+}
+
+.Verticle-box-image img{
+    width: 100%;
+    object-fit:contain;
+}
+
+.Play-icon{
+    display: flex;
+    flex-direction: row;
+}
+.Verticle-box-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.Verticle-box-content *{
+    color: white;
+}
+
+.Browse-trailers{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Browse-trailers:hover{
+    color: #f5c518;
+}

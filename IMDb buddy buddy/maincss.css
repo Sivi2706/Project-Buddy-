@@ -12,6 +12,7 @@ body {
 }
 
 .catagory-start{
+    font-weight: bolder;
     padding-right: 10px;
     color: #f5c518;
 }
