@@ -36,9 +36,9 @@ body {
 
 
 /* element visiblity tool */
-/* * {
+* {
     border: 1px solid white;
-} */
+}
 
 /* movie scroll */
 
@@ -187,4 +187,8 @@ body {
     border-left:1px solid white ;
     border-right:1px solid white ;
     border-top:1px solid white ;
+}
+
+.bg-image-top10watch:hover {
+    filter: brightness(90%);
 }
