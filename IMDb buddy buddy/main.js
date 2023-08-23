@@ -9,7 +9,8 @@ const main_movie_list = [
     ["Teenage Mutant Ninja Turtles - https://m.media-amazon.com/images/M/MV5BYzE4MTllZTktMTIyZS00Yzg1LTg1YzAtMWQwZTZkNjNkODNjXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg - https://www.imdb.com/title/tt8589698/?ref_=hm_top_tt_i_7 - 7.5 - fan"],
     ["The Lincoln Lawyer - https://m.media-amazon.com/images/M/MV5BYmE0YjNkZjUtZmM5YS00NTFlLWJjOWUtODFiNzkwM2Q3OWJhXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg - https://www.imdb.com/title/tt13833978/?ref_=hm_top_tt_i_8 - 7.7 - fan"],
     ["The Witcher - https://m.media-amazon.com/images/M/MV5BMDEwOWVlY2EtMWI0ZC00OWVmLWJmZGItYTk3YjYzN2Y0YmFkXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg - https://www.imdb.com/title/tt5180504/?ref_=hm_top_tt_i_9 - 8.0 - fan"],
-    ["Suit - https://m.media-amazon.com/images/M/MV5BNmVmMmM5ZmItZDg0OC00NTFiLWIxNzctZjNmYTY5OTU3ZWU3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg - https://www.imdb.com/title/tt1632701/?ref_=hm_top_tt_i_10 - 8.4 - fan"]
+    ["Suit - https://m.media-amazon.com/images/M/MV5BNmVmMmM5ZmItZDg0OC00NTFiLWIxNzctZjNmYTY5OTU3ZWU3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg - https://www.imdb.com/title/tt1632701/?ref_=hm_top_tt_i_10 - 8.4 - fan"],
+    ["nine - https://m.media-amazon.com/images/M/MV5BNmVmMmM5ZmItZDg0OC00NTFiLWIxNzctZjNmYTY5OTU3ZWU3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg - https://www.imdb.com/title/tt1632701/?ref_=hm_top_tt_i_10 - 8.4 - fan"]
 ]
 
 let top10_movies_list = [];
@@ -118,14 +119,15 @@ for (let counting = 0; counting < main_movie_list.length; counting++) {
 function transitionright() {
     const scroll1_container = document.querySelector(".scroll-container");
     const scroll_position = scroll1_container.scrollLeft;
-    const scroll_add = scroll1_container.scrollWidth * 0.1;
-    console.log(scroll1_container.scrollWidth)
-    console.log(scroll_position)
+    const scroll_add = scroll1_container.clientWidth;
+
     if (scroll_position > scroll1_container.scrollWidth - (scroll1_container.scrollWidth * 0.2)) {
-        scroll1_container.scrollTo(0,0);
+        scroll1_container.scrollLeft = 0;
     } else {
-        scroll1_container.scrollTo(scroll_position+scroll_add, 0)
-        moveTo(100,0)
+        scroll1_container.scrollLeft += scroll_add
     }
 }
 
+setInterval(function() {
+    transitionright()
+},10000);

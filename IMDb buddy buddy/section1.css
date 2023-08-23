@@ -34,6 +34,7 @@ html {
       background-image: linear-gradient(white,gray);
 
       scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
   }
 
   
