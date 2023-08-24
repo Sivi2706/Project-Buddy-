@@ -1,0 +1,10 @@
+.nearshowtime {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+    overflow: scroll;
+    gap: 10px;
+
+}
