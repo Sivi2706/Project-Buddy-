@@ -1,0 +1,31 @@
+.exclusive-videos{
+    margin-top:50px;
+}
+
+.exclusive-videos p{
+    color: grey;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.section7-thumbnails{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap: 20px;
+}
+
+.thumbnails h5{
+    color: white;
+}
+
+
+
+.video-info{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top:-20px;
+    padding-bottom:10px;
+}
+
