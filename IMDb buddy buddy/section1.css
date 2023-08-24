@@ -20,8 +20,8 @@ html {
   /* Section 1 horizonal scroll */
   .major-container {
       display: block;
-      height: 45vh;
-      width: 60vw;
+      height: 50vh;
+      width: 65vw;
       border: 3px solid black;
   }
   
@@ -98,3 +98,60 @@ html {
 
     position: absolute;
   }
+
+  .minor-section{
+    margin-left: 10px;
+    gap:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .minor-section h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #f5c518;
+  }
+
+  .poster{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+  }
+
+  .poster img{
+    width:88px;
+    height: 130px;
+  }
+
+  .poster-des{
+    color:white;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .description-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .poster-desp h4{
+    color:white
+  }
+
+  .poster-desp p{
+    color:white
+  }
+
+.browse-trailers{
+  text-decoration: none;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.browse-trailers:hover{
+  color: #f5c518 ;
+}
