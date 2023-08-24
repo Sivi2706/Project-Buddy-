@@ -9,7 +9,18 @@ const main_movie_list = [
     ["Teenage Mutant Ninja Turtles - https://m.media-amazon.com/images/M/MV5BYzE4MTllZTktMTIyZS00Yzg1LTg1YzAtMWQwZTZkNjNkODNjXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg - https://www.imdb.com/title/tt8589698/?ref_=hm_top_tt_i_7 - 7.5 - fan"],
     ["The Lincoln Lawyer - https://m.media-amazon.com/images/M/MV5BYmE0YjNkZjUtZmM5YS00NTFlLWJjOWUtODFiNzkwM2Q3OWJhXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg - https://www.imdb.com/title/tt13833978/?ref_=hm_top_tt_i_8 - 7.7 - fan"],
     ["The Witcher - https://m.media-amazon.com/images/M/MV5BMDEwOWVlY2EtMWI0ZC00OWVmLWJmZGItYTk3YjYzN2Y0YmFkXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg - https://www.imdb.com/title/tt5180504/?ref_=hm_top_tt_i_9 - 8.0 - fan"],
-    ["Suit - https://m.media-amazon.com/images/M/MV5BNmVmMmM5ZmItZDg0OC00NTFiLWIxNzctZjNmYTY5OTU3ZWU3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg - https://www.imdb.com/title/tt1632701/?ref_=hm_top_tt_i_10 - 8.4 - fan"]
+    ["Suit - https://m.media-amazon.com/images/M/MV5BNmVmMmM5ZmItZDg0OC00NTFiLWIxNzctZjNmYTY5OTU3ZWU3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg - https://www.imdb.com/title/tt1632701/?ref_=hm_top_tt_i_10 - 8.4 - fan"],
+    
+    ["bomb - https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_.jpg - https://www.imdb.com/title/tt15398776/?ref_=hm_fanfav_tt_i_1_pd_fp1 - 8.6 - fan"],
+    ["makeshift doll - https://deadline.com/wp-content/uploads/2023/04/barbie-BARBIE_VERT_TSR_W_TALENT_2764x4096_DOM_rgb.jpg?w=800 - https://www.imdb.com/title/tt1517268/?ref_=hm_top_tt_i_2 - 7.4 - fan"],
+    ["macncheese of the Galaxy - https://m.media-amazon.com/images/M/MV5BNDIzMTk4NDYtMjg5OS00ZGI0LWJhZDYtMzdmZGY1YWU5ZGNkXkEyXkFqcGdeQXVyMTI5NzUyMTIz._V1_.jpg - https://www.imdb.com/title/tt6791350/?ref_=hm_top_tt_i_3 - 8.0 - fan"],
+    ["remember me - https://resizing.flixster.com/rPGaQu1t3stno8BnIlctPfHWBBY=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYTA4NWEwODctMzQ3Mi00MjkwLWIyYTYtMDI3NjUzODFmNGFkLmpwZw== - https://www.imdb.com/title/tt14452776/?ref_=hm_top_tt_i_4 - 8.5 - fan"],
+    ["7eleleven: The trench - https://m.media-amazon.com/images/M/MV5BMTM2NTU1ZTktNjc4YS00NjNhLWE4NmYtOTM2YjFjOGUzNmYzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg - https://www.imdb.com/title/tt9224104/?ref_=hm_top_tt_i_5 - 5.5 - fan"],
+    ["Only idiots in the Building - https://m.media-amazon.com/images/M/MV5BMWVkNDMzNTctNTQ0Yy00YmFiLTliNTEtMDM1ZTZjMTk1ZmM0XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_.jpg - https://www.imdb.com/title/tt11691774/?ref_=hm_top_tt_i_6 - 8.1 - fan"],
+    ["Teenage nerds experiencing obesity - https://m.media-amazon.com/images/M/MV5BYzE4MTllZTktMTIyZS00Yzg1LTg1YzAtMWQwZTZkNjNkODNjXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg - https://www.imdb.com/title/tt8589698/?ref_=hm_top_tt_i_7 - 7.5 - fan"],
+    ["The finnest Lawyer - https://m.media-amazon.com/images/M/MV5BYmE0YjNkZjUtZmM5YS00NTFlLWJjOWUtODFiNzkwM2Q3OWJhXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg - https://www.imdb.com/title/tt13833978/?ref_=hm_top_tt_i_8 - 7.7 - fan"],
+    ["The fish - https://m.media-amazon.com/images/M/MV5BMDEwOWVlY2EtMWI0ZC00OWVmLWJmZGItYTk3YjYzN2Y0YmFkXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg - https://www.imdb.com/title/tt5180504/?ref_=hm_top_tt_i_9 - 8.0 - fan"],
+    ["servering bloodlines - https://m.media-amazon.com/images/M/MV5BNmVmMmM5ZmItZDg0OC00NTFiLWIxNzctZjNmYTY5OTU3ZWU3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg - https://www.imdb.com/title/tt1632701/?ref_=hm_top_tt_i_10 - 8.4 - fan"]
 ]
 
 let top10_movies_list = [];
